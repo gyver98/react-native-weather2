@@ -50,7 +50,7 @@ function Weather({ temp, weatherName }) {
       style={styles.container}>
       <View style={styles.upper}>
         <Ionicons color="white" size={144} name={weatherCases[weatherName].icon} />
-        <Text style={styles.temp}>{temp}</Text>
+        <Text style={styles.temp}>{temp}°</Text>
       </View>
       <View style={styles.lower}>
         <Text style={styles.title}>{weatherCases[weatherName].title}</Text>
